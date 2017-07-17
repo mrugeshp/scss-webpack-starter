@@ -1,5 +1,18 @@
-$color-red: red;
+/* helpers */
 
-body {
-    color: $color-red;
-}
+@import 'helpers/variables';
+@import 'helpers/mixins';
+@import 'helpers/helpers';
+
+/* base */
+
+@import 'base/base';
+@import 'base/fonts';
+
+/* components */
+
+@import 'components/comp1';
+
+/* vendors */
+
+@import 'vendors/bootstrap';
